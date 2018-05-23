@@ -4,6 +4,10 @@
 section{
 	padding: 0 !important;
 }
+.noPadding{
+	padding: 0px;
+	margin: 0px;
+}
 
 /**************************************
 		1.Header Section CSS
@@ -194,6 +198,7 @@ section{
 }
 .popular-img p{
 	color: #333333 ;
+	padding-bottom: 3em;
 }
 .popular-img img{
 	z-index: -1;
@@ -205,4 +210,91 @@ section{
 }
 .up:hover{
 	z-index: +1;
+}
+/**************************************
+	6.Testimonials Section CSS
+***************************************/
+.Testimonials{
+	background-color: #002e5b;
+	height: 200px;
+}
+.Testimonials-content{
+	padding: 50px 0px;
+	text-align: center;
+	color: #fff;
+}
+.Testimonials-right{
+	padding: 3em 0;
+}
+.Testimonials-left{
+	padding: 4px 0px;
+}
+.Testimonials-right h3{
+	color: #002e5b !important;
+	font-weight: bold;
+	width: 70%;
+	padding-bottom: 8px;	
+}
+.Testimonials-right h5{
+	color: #666666 !important;
+	padding-bottom: 8px;
+}
+.Testimonials-right p{
+	color: #333333 ;
+}
+.Testimonials-right a{
+	font-size: 18px;
+	color: #002e5b;
+	font-weight: bold;
+	border-bottom: 2px solid #002e5b; 
+	padding-bottom: 4px;
+}
+
+.Testimonials-right a:hover{
+	color:#FDE428;
+	text-decoration: none;
+	border-bottom: 2px solid #FDE428;
+}
+.Testimonials-img{
+	position: relative;
+	top: 70px;
+	left: 20px;
+	box-shadow: 1px 2px #FDE428;
+	-webkit-transition: ease .8s all;
+	-moz-transition: ease .8s all;
+	-o-transition: ease .8s all;
+	transition: ease .8s all;
+}
+.Testimonials-img:hover{
+	-webkit-transform: scale(1.05,1.05);
+	-moz-transform: scale(1.05,1.05);
+	-o-transform: scale(1.05,1.05);
+	transform: scale(1.05,1.05);
+}
+.Testimonials-vartical{
+	position: absolute;
+	background-color: #fde52c;
+	width: 30%;
+	height: 100%;
+	left: 180px;
+	top: 0px;
+}
+/**************************************
+	7.Best Section CSS
+***************************************/
+.best{
+	background-color: #002e5b;
+}
+.best-content{
+	text-align: center;
+	color: #fff;
+	padding: 3em 0;
+	margin: 0 auto;
+	font-family: roboto;
+}
+/**************************************
+	8.Contact us Section CSS
+***************************************/
+.contact-img{
+	color: #002e5b;
 }
