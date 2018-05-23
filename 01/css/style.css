@@ -1,0 +1,321 @@
+/**************************
+=1.common css
+=2.Header section css
+=3.Banner section css
+=4.Freature section css
+=5.about section css
+=6.mobile section css 
+=7.Show section css
+=8.Carosol section css
+**************************/
+
+
+
+/***************************
+	1. Common css/normalize css
+****************************/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+*{
+	font-family: 'Montserrat', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/***************************
+	2. Header section css start
+****************************/
+header{
+	padding: 30px 0px;
+	background-color: #0a2345;
+}
+.sandwich-menu {
+	padding: 22px 0px;
+	color: #fff;
+	float: right;
+}
+.sandwich-menu:hover{
+	cursor: pointer;
+}
+/***************************
+	3. Banner section css 
+****************************/
+.banner{
+	height: 250px;
+	background-color: #0a2345;
+}
+.banner h1{
+	color: #fff;
+	text-align: center;
+	padding: 35px 0px 10px;
+}
+.banner span{
+	color: #2a5da3;
+}
+.banner p{
+	color: #2a5da3;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.banner .main-button{
+	background-color: transparent;
+	display: block;
+	margin: 0 auto;
+	border:solid .5px #2a5da3;
+	border-radius: 40px;
+	color: #fff;
+	padding: 15px 30px;
+	font-size: 12px;
+	font-weight: 600;
+	transition: ease .5s all;
+	-moz-transition: ease .5s all;
+	-webkit-transition: ease .5s all;
+	-o-transition: ease .5s all;
+}
+.banner .main-button:hover{
+	background-color:  #fff;
+	color: #2a5da3;
+}
+/***************************
+	=4.Freature section css
+****************************/
+.feature{
+	background: url(../img/Feature-bg.png) no-repeat center;
+	background-color: #0a2345;
+	background-size: 100% 70%;
+}
+.feature-img{
+	padding-top: 50px;
+	transition: ease .5s all;
+	-moz-transition: ease .5s all;
+	-webkit-transition: ease .5s all; t
+	-o-transition: ease .5s all;
+}
+.feature-img:hover{
+	transform: scale(1.2,1.2);
+}
+/***************************
+	=5. About section css
+****************************/
+.about{
+	background-color: #0a2345;
+	background-size: 100%;
+	padding: 80px 0px;
+}
+.about img{
+	position: relative;
+	top: 0px;
+	padding-right: 60px;
+}
+.about .col-sm-6{
+	max-width: 45%;
+}
+.about h3{
+	color: #fff;
+	text-align: left;
+	padding: 10px 0px;
+}
+.about span{
+	color: #2a5da3;
+}
+.about p{
+	color: #66778e;
+	text-align: left;
+	font-size: 12px;
+	font-weight: normal;
+	padding-bottom: 50px;
+}
+.about .main-button{
+	background-color: transparent;
+	border:solid .5px #2a5da3;
+	border-radius: 40px;
+	color: #fff;
+	padding: 15px 30px;
+	font-size: 12px;
+	font-weight: 600;
+	transition: ease .5s all;
+	-moz-transition: ease .5s all;
+	-webkit-transition: ease .5s all;
+	-o-transition: ease .5s all;
+}
+.about .main-button:hover{
+	background-color:  #fff;
+	color: #2a5da3;
+}
+/***************************
+	=6. Mobile section css
+****************************/
+.mobile{
+	background-color: #0a2345;
+	padding: 20px 0px 80px;
+}
+.mobile h3{
+	color: #fff;
+	text-align: center;
+	padding-bottom: 80px;
+}
+.mobile span{
+	color: #2a5da3;
+}
+.mobile h4{
+	color: #fff;
+	padding-bottom: 10px;
+}
+.mobile p{
+	color: #66778e;
+	font-size: 12px;
+}
+ .mobile .mobile-icon{
+ 	padding-bottom: 10px;
+ 	transform: scale(.7,.7);
+ }
+ .mobile .mobile-top{
+ 	padding-bottom: 80px;
+ }
+ .mobile .mobile-pic img{
+ 	transform: scale(1.5,1.5);
+ }
+ /***************************
+	=6.Show section css
+****************************/
+.show{
+	background-color: #0a2345;
+	padding: 30px 0px;
+}
+.show .show-left{
+	color: #fff;
+	max-width: 60%;
+	padding-top: 100px;
+	padding-left: 118px;
+}
+.show .show-left img{
+	padding-bottom: 10px;
+ 	transform: scale(.7,.7);
+}
+.show .show-left h4{
+	padding-bottom: 10px;
+}
+.show .show-left p{
+	font-size: 12px;
+	color: #66778e;
+}
+ /***************************
+	=8.carosol section css
+****************************/
+.carosol{
+	background-color: #0a2345;
+	position: absolute;
+}
+.carousel-inner h5{
+	color: #66778e;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	top: 200px;
+	position: relative;
+	text-align: center;
+	font-size: 18px;
+}
+.carousel-inner .carousel-user{
+	position: relative;
+	top: 150px;
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+}
+.carousel-inner .carousel-user img{
+	width: 10%;
+	float: left;
+}
+.carousel-inner .carousel-user p{
+	color: #66778e;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	top: 200px;
+	position: relative;
+	text-align: center;
+	font-size: 12px;
+}
+/***************************
+	=9.Music section css
+****************************/
+.music{
+	background-color: #020206;
+	width: 100%;
+	height: 1650px;
+	margin: 0 auto;
+}
+.music h3{
+	color: #fff;
+	padding-top: 550px;
+	text-align: center;
+}
+.music p{
+	color: #66778e;
+	padding-top: 10px;
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.music img{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	top: -250px;
+	transform: scale(.7,.7);
+}
+.music button{
+	position: relative;
+	top: -450px;
+	display: block;
+	margin: 0 auto;
+	background:transparent;
+	border: solid 1px #66778e;
+	color: #fff;
+	border-radius: 40px;
+	padding: 15px 25px;
+}
+.music button:hover{
+	background: #fff;
+	color: #66778e;
+}
+/***************************
+	=10.footer section css
+****************************/
+footer{
+	top: -250PX;
+	background-color: #020206;
+	height: 60px;
+}
+footer .line{
+	background-color: #66778e;
+	height: 1px;
+}
+footer ul{
+	padding-top: 10px;
+}
+footer ul li{
+	list-style: none;
+	display: inline;
+	font-size: 12px;
+	padding-right: 5px;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #66778e 
+}
+footer ul li a:hover{
+	color: #66778e;
+}
+footer .left{
+	float: left;
+}
+footer .right{
+	float: right;
+	padding-top: 10px;
+	font-size: 12px;
+	color: #66778e;
+}
