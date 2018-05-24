@@ -35,7 +35,7 @@ section{
 	display: cover;
 	height: 80%;
 }
-/*.slider-img{
+.slider-img{
 	-webkit-transition: ease .5s all;
 	-moz-transition: ease .5s all;
 	-o-transition: ease .5s all;
@@ -45,7 +45,7 @@ section{
 	-webkit-transform: scale(1.02,1.02) !important;
 	-moz-transform: scale(1.02,1.02) !important;
 	-o-transform: scale(1.02,1.02) !important;
-	transform: scale(1.02,1.02)!important;*/
+	transform: scale(1.02,1.02)!important;
 }
 .icon{
 	padding: 200px 0px;
