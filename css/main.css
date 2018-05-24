@@ -12,6 +12,9 @@ section{
 /**************************************
 		1.Header Section CSS
 ***************************************/
+#mainNav {
+	 background-color: #001C37 !important;
+}
 #mainNav.navbar-shrink {
      background-color: #001C37 !important;
 }
@@ -28,7 +31,8 @@ section{
     color: #FDE428 !important;
 }
 .slider{
-	background: url(../img/slider.png) !important ;
+	background: url(../img/slider.png) no-repeat !important;
+	display: cover;
 	height: 80%;
 }
 .slider-img{
@@ -42,6 +46,16 @@ section{
 	-moz-transform: scale(1.02,1.02) !important;
 	-o-transform: scale(1.02,1.02) !important;
 	transform: scale(1.02,1.02)!important;
+}
+.icon{
+	padding: 200px 0px;
+	color: #FDE428;
+}
+.icon i{
+	padding-right: 20px;
+}
+.icon span{
+	padding-right: 15px;
 }
 /**************************************
 		2. About Section CSS
@@ -297,4 +311,32 @@ section{
 ***************************************/
 .contact-img{
 	color: #002e5b;
+}
+/**************************************
+	9. Footer section us Section CSS
+***************************************/
+footer{
+	background-color: #002e5b;
+	height: 60px;
+}
+.footer-left{
+	color: #fff;
+	padding: 18px 0px;
+}
+.footer-left p span{
+	color: #fde52c;
+}
+.footer-right i{
+	color: #fff;
+	padding: 18px 0px;
+	float: right;
+	padding-right: 15px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
 }
